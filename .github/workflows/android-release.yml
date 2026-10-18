@@ -92,7 +92,6 @@ jobs:
         env:
           SIGNING_KEY_BASE64: ${{ secrets.SIGNING_KEY_BASE64 }}
           SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
-          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
         run: |
           set -euo pipefail
           for key in SIGNING_KEY_BASE64 SIGNING_PASSWORD; do
