@@ -1,0 +1,13 @@
+{
+  "name": "tj-japan-song-app",
+  "version": "1.0.0",
+  "description": "Offline TJ Japanese Karaoke Song Search App",
+  "scripts": {
+    "build": "echo 'Static offline build ready in www/'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  }
+}
