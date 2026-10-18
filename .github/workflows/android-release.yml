@@ -90,26 +90,25 @@ jobs:
         if: ${{ startsWith(github.ref, 'refs/tags/v') || inputs.build_type == 'release' }}
         working-directory: android
         env:
-          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
-          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          SIGNING_KEY_BASE64: ${{ secrets.SIGNING_KEY_BASE64 }}
+          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
+          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
         run: |
           set -euo pipefail
-          for key in KEYSTORE_BASE64 KEYSTORE_PASSWORD KEY_ALIAS KEY_PASSWORD; do
+          for key in SIGNING_KEY_BASE64 SIGNING_PASSWORD; do
             if [[ -z "${!key}" ]]; then
               echo "::error::Missing GitHub Actions secret: $key"
               exit 1
             fi
           done
           trap 'rm -f release-key.jks' EXIT
-          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > release-key.jks
+          printf '%s' "$SIGNING_KEY_BASE64" | base64 --decode > release-key.jks
           chmod +x gradlew
           ./gradlew assembleRelease \
             "-Pandroid.injected.signing.store.file=$(pwd)/release-key.jks" \
-            "-Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD" \
-            "-Pandroid.injected.signing.key.alias=$KEY_ALIAS" \
-            "-Pandroid.injected.signing.key.password=$KEY_PASSWORD"
+            "-Pandroid.injected.signing.store.password=$SIGNING_PASSWORD" \
+            "-Pandroid.injected.signing.key.alias=tj-jpsong" \
+            "-Pandroid.injected.signing.key.password=$SIGNING_PASSWORD"
           mv app/build/outputs/apk/release/app-release.apk "../tj-jpsong-v${{ env.VERSION_NAME }}-release.apk"
 
       - name: Publish signed release for Obtainium
