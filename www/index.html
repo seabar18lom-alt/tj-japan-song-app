@@ -81,7 +81,33 @@ $('tbody').onclick=e=>{const el=e.target.closest('[data-act]');if(!el)return;con
 if(act==='edit'&&s.isCustom)return openModal(s);
 if(act==='del'&&s.isCustom){if(!confirm('['+s.ko+'] 곡을 삭제할까?'))return;const next=customSongs.filter(x=>x.id!==s.id),ids=idState();delete ids[s.id];if(transact(next,ids)){render();toast('삭제했어.')}return}
 if(act==='fav'){const ids=idState();ids[s.id]=!s.favorite;if(transact(customSongs,ids)){render();toast(ids[s.id]?'즐겨찾기 추가':'즐겨찾기 해제')}}};
-function download(name,content){const blob=new Blob([content],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),5000)}
+async function download(name,content){
+  const cap=window.Capacitor;
+  const filesystem=cap&&cap.Plugins&&cap.Plugins.Filesystem;
+  const share=cap&&cap.Plugins&&cap.Plugins.Share;
+  if(cap&&cap.isNativePlatform&&cap.isNativePlatform()){
+    if(!filesystem||!share){alert('백업 저장 기능이 준비되지 않았어. 앱을 최신 버전으로 업데이트해 줘.');return}
+    try{
+      const bytes=new TextEncoder().encode(content);
+      let binary='';
+      for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));
+      await filesystem.writeFile({path:name,data:btoa(binary),directory:'CACHE'});
+      const file=await filesystem.getUri({path:name,directory:'CACHE'});
+      await share.share({title:'TJ 즐겨찾기 백업',files:[file.uri],dialogTitle:'백업 JSON 파일 저장 또는 공유'});
+      toast('공유 화면에서 파일을 저장해 줘.');
+    }catch(err){
+      console.error('Backup export failed:',err);
+      alert('백업 파일 공유에 실패했어. 파일은 아직 외부에 저장되지 않았을 수 있어. 다른 저장 앱을 선택하거나 다시 시도해 줘.');
+    }
+    return;
+  }
+  try{
+    const blob=new Blob([content],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+    a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),5000);
+    toast('백업 다운로드를 시작했어.');
+  }catch(err){console.error(err);alert('백업 다운로드에 실패했어.')}
+}
 $('export').onclick=()=>download('TJ_즐겨찾기_백업.json',JSON.stringify({version:7,exportedAt:new Date().toISOString(),favorites:legacyList(),favoriteIds:idState(),customSongs},null,2));
 $('importBtn').onclick=()=>{$('importFile').value='';$('importFile').click()};
 $('importFile').onchange=e=>{const file=e.target.files?.[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{
