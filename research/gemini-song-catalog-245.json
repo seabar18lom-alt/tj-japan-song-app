@@ -1,0 +1,2354 @@
+{
+  "project": "내 TJ 노래방 노트",
+  "purpose": "Gemini 앨범아트 및 OST 메타데이터 조사",
+  "songCount": 245,
+  "instructions": "기존 id/ko/jp/artist/genre/number를 변경하지 마세요. artworkUrl, artworkSource, artworkRights, workTitle, season, ostType 필드만 조사해 별도 결과로 반환하세요. 확실하지 않다면 null.",
+  "songs": [
+    {
+      "id": "s1",
+      "ko": "결벽증",
+      "jp": "ケッペキショウ",
+      "artist": "스콥",
+      "genre": "보카로",
+      "number": "28673",
+      "covers": [
+        "키지네코"
+      ]
+    },
+    {
+      "id": "s2",
+      "ko": "굿바이 선언",
+      "jp": "グッバイ宣言",
+      "artist": "Chinozo",
+      "genre": "보카로",
+      "number": "68500",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s3",
+      "ko": "그것이 당신의 행복이라 할지라도",
+      "jp": "それがあなたの幸せとしても",
+      "artist": "Heavenz",
+      "genre": "보카로",
+      "number": "27911",
+      "covers": [
+        "KK"
+      ]
+    },
+    {
+      "id": "s4",
+      "ko": "꼭두각시 피에로",
+      "jp": "からくりピエロ",
+      "artist": "40mP",
+      "genre": "보카로",
+      "number": "27357",
+      "covers": [
+        "이토카시타로",
+        "하나땅"
+      ]
+    },
+    {
+      "id": "s5",
+      "ko": "나팔꽃 질 무렵에",
+      "jp": "アサガオの散る頃に",
+      "artist": "짓푸스",
+      "genre": "보카로",
+      "number": "28661",
+      "covers": [
+        "월피스 카터",
+        "쿠로쿠모"
+      ]
+    },
+    {
+      "id": "s6",
+      "ko": "내일의 밤하늘 초계반",
+      "jp": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar",
+      "genre": "보카로",
+      "number": "27984",
+      "covers": [
+        "월피스 카터"
+      ]
+    },
+    {
+      "id": "s7",
+      "ko": "노심융해",
+      "jp": "炉心融解",
+      "artist": "이로하(사사키)",
+      "genre": "보카로",
+      "number": "26903",
+      "covers": [
+        "아카틴",
+        "욧페이"
+      ]
+    },
+    {
+      "id": "s8",
+      "ko": "뇌장작렬 걸",
+      "jp": "脳漿炸裂ガール",
+      "artist": "레루리리",
+      "genre": "보카로",
+      "number": "28305",
+      "covers": [
+        "마후마후",
+        "아카틴",
+        "우타이테 8인 합창"
+      ]
+    },
+    {
+      "id": "s9",
+      "ko": "누군가의 심장이 될 수 있다면",
+      "jp": "だれかの心臓になれたなら",
+      "artist": "유리이 카논",
+      "genre": "보카로",
+      "number": "68070",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s10",
+      "ko": "누더기 스타카토",
+      "jp": "ツギハギスタッカート",
+      "artist": "토아",
+      "genre": "보카로",
+      "number": "28728",
+      "covers": [
+        "96네코"
+      ]
+    },
+    {
+      "id": "s11",
+      "ko": "도넛 홀",
+      "jp": "ドーナツホール",
+      "artist": "하치",
+      "genre": "보카로",
+      "number": "28229",
+      "covers": []
+    },
+    {
+      "id": "s12",
+      "ko": "도쿄 테디베어",
+      "jp": "東京テディベア",
+      "artist": "Neru",
+      "genre": "보카로",
+      "number": "27324",
+      "covers": [
+        "구리리",
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s13",
+      "ko": "드라마투르기",
+      "jp": "ドラマツルギー",
+      "artist": "Eve",
+      "genre": "보카로",
+      "number": "28805",
+      "covers": []
+    },
+    {
+      "id": "s14",
+      "ko": "로스트 원의 호곡",
+      "jp": "ロストワンの号哭",
+      "artist": "Neru",
+      "genre": "보카로",
+      "number": "27670",
+      "covers": [
+        "구루타밍",
+        "레오루",
+        "마후마후",
+        "조미료"
+      ]
+    },
+    {
+      "id": "s15",
+      "ko": "로키",
+      "jp": "ロキ",
+      "artist": "미키토P",
+      "genre": "보카로",
+      "number": "28961",
+      "covers": [
+        "마후마후",
+        "소라루"
+      ]
+    },
+    {
+      "id": "s16",
+      "ko": "롤링 걸",
+      "jp": "ローリンガール",
+      "artist": "wowaka",
+      "genre": "보카로",
+      "number": "27239",
+      "covers": [
+        "구루타밍",
+        "아카틴"
+      ]
+    },
+    {
+      "id": "s17",
+      "ko": "마음짓기",
+      "jp": "心做し",
+      "artist": "초쵸P",
+      "genre": "보카로",
+      "number": "27906",
+      "covers": [
+        "월피스 카터",
+        "하나땅"
+      ]
+    },
+    {
+      "id": "s18",
+      "ko": "마트료시카",
+      "jp": "マトリョシカ",
+      "artist": "하치",
+      "genre": "보카로",
+      "number": "28269",
+      "covers": [
+        "96네코",
+        "vip점장",
+        "구루타밍",
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s19",
+      "ko": "망상감상대상연맹",
+      "jp": "妄想感傷代償連盟",
+      "artist": "DECO*27",
+      "genre": "보카로",
+      "number": "28676",
+      "covers": [
+        "NORISTRY",
+        "nqrse",
+        "아라키",
+        "쿠로쿠모"
+      ]
+    },
+    {
+      "id": "s20",
+      "ko": "망상세",
+      "jp": "妄想税",
+      "artist": "DECO*27",
+      "genre": "보카로",
+      "number": "28322",
+      "covers": [
+        "nqrse",
+        "레오루"
+      ]
+    },
+    {
+      "id": "s21",
+      "ko": "메이블",
+      "jp": "メーベル",
+      "artist": "벌룬",
+      "genre": "보카로",
+      "number": "28798",
+      "covers": [
+        "Eve"
+      ]
+    },
+    {
+      "id": "s22",
+      "ko": "모래의 행성",
+      "jp": "砂の惑星",
+      "artist": "하치",
+      "genre": "보카로",
+      "number": "28736",
+      "covers": []
+    },
+    {
+      "id": "s23",
+      "ko": "베놈",
+      "jp": "ベノム",
+      "artist": "카이리키 베어",
+      "genre": "보카로",
+      "number": "68079",
+      "covers": [
+        "칸칸",
+        "쿠로쿠모"
+      ]
+    },
+    {
+      "id": "s24",
+      "ko": "병명은 사랑이었다",
+      "jp": "病名は愛だった",
+      "artist": "Neru",
+      "genre": "보카로",
+      "number": "28815",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s25",
+      "ko": "생명에게 미움받고 있어",
+      "jp": "命に嫌われている。",
+      "artist": "칸자키 이오리",
+      "genre": "보카로",
+      "number": "68051",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s26",
+      "ko": "샤를",
+      "jp": "シャルル",
+      "artist": "벌룬",
+      "genre": "보카로",
+      "number": "28700",
+      "covers": [
+        "마후마후",
+        "칸칸",
+        "쿠로쿠모",
+        "파나만"
+      ]
+    },
+    {
+      "id": "s27",
+      "ko": "슈퍼 누코가 되지 못했어",
+      "jp": "すーぱーぬこになれんかった",
+      "artist": "마후마후",
+      "genre": "보카로",
+      "number": "68244",
+      "covers": []
+    },
+    {
+      "id": "s28",
+      "ko": "시간의 비, 최종전쟁",
+      "jp": "時ノ雨、最終戦争",
+      "artist": "Orangestar",
+      "genre": "보카로",
+      "number": "28650",
+      "covers": [
+        "아카틴"
+      ]
+    },
+    {
+      "id": "s29",
+      "ko": "신의 뜻대로",
+      "jp": "神のまにまに (신의 뜻대로)",
+      "artist": "레루리리",
+      "genre": "보카로",
+      "number": "27854",
+      "covers": []
+    },
+    {
+      "id": "s30",
+      "ko": "아우터 사이언스",
+      "jp": "アウターサイエンス",
+      "artist": "진",
+      "genre": "보카로",
+      "number": "28164",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s31",
+      "ko": "아지랑이 데이즈",
+      "jp": "カゲロウデイズ",
+      "artist": "진",
+      "genre": "보카로",
+      "number": "27308",
+      "covers": [
+        "96네코"
+      ]
+    },
+    {
+      "id": "s32",
+      "ko": "언해피 리프레인",
+      "jp": "アンハッピーリフレイン",
+      "artist": "wowaka",
+      "genre": "보카로",
+      "number": "27777",
+      "covers": [
+        "등유"
+      ]
+    },
+    {
+      "id": "s33",
+      "ko": "에일리언 에일리언",
+      "jp": "エイリアンエイリアン",
+      "artist": "나유탄 성인",
+      "genre": "보카로",
+      "number": "27961",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s34",
+      "ko": "오렌지",
+      "jp": "オレンジ",
+      "artist": "토마",
+      "genre": "보카로",
+      "number": "28687",
+      "covers": [
+        "96네코",
+        "메가테라 제로",
+        "하나땅"
+      ]
+    },
+    {
+      "id": "s35",
+      "ko": "유령 도쿄",
+      "jp": "幽霊東京",
+      "artist": "Ayase",
+      "genre": "보카로",
+      "number": "52447",
+      "covers": [
+        "쿠로쿠모"
+      ]
+    },
+    {
+      "id": "s36",
+      "ko": "자상무색",
+      "jp": "自傷無色",
+      "artist": "네코볼로",
+      "genre": "보카로",
+      "number": "27803",
+      "covers": [
+        "하나땅"
+      ]
+    },
+    {
+      "id": "s37",
+      "ko": "직소 퍼즐",
+      "jp": "ジグソーパズル",
+      "artist": "마후마후",
+      "genre": "보카로",
+      "number": "28963",
+      "covers": []
+    },
+    {
+      "id": "s38",
+      "ko": "진흙 속에 피다",
+      "jp": "泥中に咲く",
+      "artist": "하리하라 츠바사",
+      "genre": "보카로",
+      "number": "68126",
+      "covers": []
+    },
+    {
+      "id": "s39",
+      "ko": "천본앵",
+      "jp": "千本桜",
+      "artist": "쿠로우사P",
+      "genre": "보카로",
+      "number": "68421",
+      "covers": [
+        "마후마후",
+        "하나땅"
+      ]
+    },
+    {
+      "id": "s40",
+      "ko": "천성의 약함",
+      "jp": "天ノ弱",
+      "artist": "164",
+      "genre": "보카로",
+      "number": "28397",
+      "covers": [
+        "월피스 카터"
+      ]
+    },
+    {
+      "id": "s41",
+      "ko": "칠드런 레코드",
+      "jp": "チルドレンレコード",
+      "artist": "진",
+      "genre": "보카로",
+      "number": "28224",
+      "covers": [
+        "아카틴",
+        "욧페이"
+      ]
+    },
+    {
+      "id": "s42",
+      "ko": "테러",
+      "jp": "テロル",
+      "artist": "Neru",
+      "genre": "보카로",
+      "number": "27979",
+      "covers": [
+        "라온",
+        "조미료"
+      ]
+    },
+    {
+      "id": "s43",
+      "ko": "투명 엘레지",
+      "jp": "透明エレジー",
+      "artist": "n-buna",
+      "genre": "보카로",
+      "number": "52698",
+      "covers": [
+        "Nameless"
+      ]
+    },
+    {
+      "id": "s44",
+      "ko": "폐허의 나라의 앨리스",
+      "jp": "廃墟の国のアリス",
+      "artist": "마후마후",
+      "genre": "보카로",
+      "number": "28934",
+      "covers": []
+    },
+    {
+      "id": "s45",
+      "ko": "호시아이",
+      "jp": "ホシアイ",
+      "artist": "레프티 몬스터P",
+      "genre": "보카로",
+      "number": "27964",
+      "covers": [
+        "구루타밍"
+      ]
+    },
+    {
+      "id": "s46",
+      "ko": "히바나",
+      "jp": "ヒバナ",
+      "artist": "DECO*27",
+      "genre": "보카로",
+      "number": "28747",
+      "covers": [
+        "마후마후",
+        "소라루"
+      ]
+    },
+    {
+      "id": "s47",
+      "ko": "히비카세",
+      "jp": "ヒビカセ",
+      "artist": "Giga",
+      "genre": "보카로",
+      "number": "52553",
+      "covers": []
+    },
+    {
+      "id": "s48",
+      "ko": "감전",
+      "jp": "感電",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "68300",
+      "covers": []
+    },
+    {
+      "id": "s49",
+      "ko": "경화수월",
+      "jp": "鏡花水月",
+      "artist": "마후마후",
+      "genre": "J-POP",
+      "number": "28657",
+      "covers": []
+    },
+    {
+      "id": "s50",
+      "ko": "군청",
+      "jp": "群青",
+      "artist": "YOASOBI",
+      "genre": "J-POP",
+      "number": "68390",
+      "covers": []
+    },
+    {
+      "id": "s51",
+      "ko": "그저 목소리 하나",
+      "jp": "ただ声一つ",
+      "artist": "로쿠데나시",
+      "genre": "J-POP",
+      "number": "68582",
+      "covers": []
+    },
+    {
+      "id": "s52",
+      "ko": "기라기라",
+      "jp": "ギラギラ",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "52716",
+      "covers": []
+    },
+    {
+      "id": "s53",
+      "ko": "까마귀",
+      "jp": "烏",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "52689",
+      "covers": []
+    },
+    {
+      "id": "s54",
+      "ko": "꿈속의 꿈",
+      "jp": "夢のまた夢",
+      "artist": "마후마후",
+      "genre": "J-POP",
+      "number": "28830",
+      "covers": []
+    },
+    {
+      "id": "s55",
+      "ko": "NIGHT DANCER",
+      "jp": "NIGHT DANCER",
+      "artist": "imase",
+      "genre": "J-POP",
+      "number": "68740",
+      "covers": []
+    },
+    {
+      "id": "s56",
+      "ko": "너는 록을 듣지 않아",
+      "jp": "君はロックを聴かない",
+      "artist": "아이묭",
+      "genre": "J-POP",
+      "number": "28948",
+      "covers": []
+    },
+    {
+      "id": "s57",
+      "ko": "No title",
+      "jp": "No title",
+      "artist": "레오루",
+      "genre": "J-POP",
+      "number": "28704",
+      "covers": []
+    },
+    {
+      "id": "s58",
+      "ko": "농월",
+      "jp": "朧月",
+      "artist": "마후마후",
+      "genre": "J-POP",
+      "number": "28845",
+      "covers": []
+    },
+    {
+      "id": "s59",
+      "ko": "DIARY",
+      "jp": "DIARY",
+      "artist": "KK",
+      "genre": "J-POP",
+      "number": "28761",
+      "covers": []
+    },
+    {
+      "id": "s60",
+      "ko": "RED OUT",
+      "jp": "RED OUT",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "52737",
+      "covers": []
+    },
+    {
+      "id": "s61",
+      "ko": "Lemon",
+      "jp": "Lemon",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "28822",
+      "covers": [
+        "마후마후",
+        "칸칸"
+      ]
+    },
+    {
+      "id": "s62",
+      "ko": "레오",
+      "jp": "レオ",
+      "artist": "유우리",
+      "genre": "J-POP",
+      "number": "52773",
+      "covers": []
+    },
+    {
+      "id": "s63",
+      "ko": "LADY",
+      "jp": "LADY",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "68495",
+      "covers": []
+    },
+    {
+      "id": "s64",
+      "ko": "LOSER",
+      "jp": "LOSER",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "28686",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s65",
+      "ko": "마루노우치 새디스틱",
+      "jp": "丸の内サディスティック",
+      "artist": "시이나 링고",
+      "genre": "J-POP",
+      "number": "25837",
+      "covers": [
+        "쿠로쿠모"
+      ]
+    },
+    {
+      "id": "s66",
+      "ko": "말과 사슴",
+      "jp": "馬と鹿",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "68094",
+      "covers": []
+    },
+    {
+      "id": "s67",
+      "ko": "매일",
+      "jp": "毎日",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "68478",
+      "covers": []
+    },
+    {
+      "id": "s68",
+      "ko": "메트로놈",
+      "jp": "メトロノーム",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "27945",
+      "covers": []
+    },
+    {
+      "id": "s69",
+      "ko": "미스트",
+      "jp": "ミスト",
+      "artist": "KK",
+      "genre": "J-POP",
+      "number": "28735",
+      "covers": []
+    },
+    {
+      "id": "s70",
+      "ko": "바다의 유령",
+      "jp": "海の幽霊",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "68019",
+      "covers": [
+        "칸칸"
+      ]
+    },
+    {
+      "id": "s71",
+      "ko": "봄을 고하다",
+      "jp": "春を告げる",
+      "artist": "yama",
+      "genre": "J-POP",
+      "number": "52453",
+      "covers": []
+    },
+    {
+      "id": "s72",
+      "ko": "vivi",
+      "jp": "vivi",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "27915",
+      "covers": []
+    },
+    {
+      "id": "s73",
+      "ko": "사신",
+      "jp": "死神",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "52430",
+      "covers": []
+    },
+    {
+      "id": "s74",
+      "ko": "SNOBBISM",
+      "jp": "SNOBBISM",
+      "artist": "Neru",
+      "genre": "J-POP",
+      "number": "28867",
+      "covers": [
+        "마후마후",
+        "칸칸"
+      ]
+    },
+    {
+      "id": "s75",
+      "ko": "시끄러워",
+      "jp": "うっせぇわ",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68458",
+      "covers": []
+    },
+    {
+      "id": "s76",
+      "ko": "아마도",
+      "jp": "たぶん",
+      "artist": "YOASOBI",
+      "genre": "J-POP",
+      "number": "68406",
+      "covers": []
+    },
+    {
+      "id": "s77",
+      "ko": "아마테라스",
+      "jp": "アマテラス",
+      "artist": "KK",
+      "genre": "J-POP",
+      "number": "28724",
+      "covers": []
+    },
+    {
+      "id": "s78",
+      "ko": "아이네 클라이네",
+      "jp": "アイネクライネ",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "28607",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s79",
+      "ko": "안녕, 언젠가 다시!",
+      "jp": "さよーならまたいつか!",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "52580",
+      "covers": []
+    },
+    {
+      "id": "s80",
+      "ko": "어른 블루",
+      "jp": "オトナブルー",
+      "artist": "새로운 학교의 리더즈",
+      "genre": "J-POP",
+      "number": "68780",
+      "covers": []
+    },
+    {
+      "id": "s81",
+      "ko": "About me",
+      "jp": "About me",
+      "artist": "",
+      "genre": "J-POP",
+      "number": "27817",
+      "covers": [
+        "아라키"
+      ]
+    },
+    {
+      "id": "s82",
+      "ko": "Overdose",
+      "jp": "Overdose",
+      "artist": "나토리",
+      "genre": "J-POP",
+      "number": "68698",
+      "covers": [
+        "칸칸"
+      ]
+    },
+    {
+      "id": "s83",
+      "ko": "윤회전생",
+      "jp": "輪廻転生",
+      "artist": "마후마후",
+      "genre": "J-POP",
+      "number": "28782",
+      "covers": []
+    },
+    {
+      "id": "s84",
+      "ko": "잿빛과 푸름",
+      "jp": "灰色と青",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "28789",
+      "covers": []
+    },
+    {
+      "id": "s85",
+      "ko": "종점",
+      "jp": "終点",
+      "artist": "마후마후",
+      "genre": "J-POP",
+      "number": "68119",
+      "covers": []
+    },
+    {
+      "id": "s86",
+      "ko": "춘뢰",
+      "jp": "春雷",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "28795",
+      "covers": []
+    },
+    {
+      "id": "s87",
+      "ko": "Pale Blue",
+      "jp": "Pale Blue",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "68423",
+      "covers": []
+    },
+    {
+      "id": "s88",
+      "ko": "Flamingo",
+      "jp": "Flamingo",
+      "artist": "요네즈 켄시",
+      "genre": "J-POP",
+      "number": "28983",
+      "covers": [
+        "칸칸"
+      ]
+    },
+    {
+      "id": "s89",
+      "ko": "괴물",
+      "jp": "怪物",
+      "artist": "YOASOBI",
+      "genre": "애니 OST",
+      "number": "68387",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s90",
+      "ko": "꽃이 되어",
+      "jp": "花になって",
+      "artist": "녹황색사회",
+      "genre": "애니 OST",
+      "number": "68940",
+      "covers": []
+    },
+    {
+      "id": "s91",
+      "ko": "백화요란",
+      "jp": "百花繚乱",
+      "artist": "이쿠타 리라",
+      "genre": "애니 OST",
+      "number": "52794",
+      "covers": []
+    },
+    {
+      "id": "s92",
+      "ko": "Black Catcher",
+      "jp": "Black Catcher",
+      "artist": "비케블랑카",
+      "genre": "애니 OST",
+      "number": "68198",
+      "covers": []
+    },
+    {
+      "id": "s93",
+      "ko": "슈가송과 비터스텝",
+      "jp": "シュガーソングとビターステップ",
+      "artist": "UNISON SQUARE GARDEN",
+      "genre": "애니 OST",
+      "number": "27737",
+      "covers": []
+    },
+    {
+      "id": "s94",
+      "ko": "쏘아 올린 불꽃",
+      "jp": "打上花火",
+      "artist": "DAOKO × 요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "28750",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s95",
+      "ko": "아이돌",
+      "jp": "アイドル",
+      "artist": "YOASOBI",
+      "genre": "애니 OST",
+      "number": "68781",
+      "covers": [
+        "쿠로쿠모"
+      ]
+    },
+    {
+      "id": "s96",
+      "ko": "악마의 아이",
+      "jp": "悪魔の子",
+      "artist": "히구치 아이",
+      "genre": "애니 OST",
+      "number": "68571",
+      "covers": []
+    },
+    {
+      "id": "s97",
+      "ko": "unravel",
+      "jp": "unravel",
+      "artist": "TK from 린토시테시구레",
+      "genre": "애니 OST",
+      "number": "28153",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s98",
+      "ko": "M87",
+      "jp": "M87",
+      "artist": "요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "52892",
+      "covers": []
+    },
+    {
+      "id": "s99",
+      "ko": "orion",
+      "jp": "orion",
+      "artist": "요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "28660",
+      "covers": [
+        "마후마후"
+      ]
+    },
+    {
+      "id": "s100",
+      "ko": "오토노케",
+      "jp": "オトノケ",
+      "artist": "Creepy Nuts",
+      "genre": "애니 OST",
+      "number": "52704",
+      "covers": []
+    },
+    {
+      "id": "s101",
+      "ko": "용사",
+      "jp": "勇者",
+      "artist": "YOASOBI",
+      "genre": "애니 OST",
+      "number": "68860",
+      "covers": []
+    },
+    {
+      "id": "s102",
+      "ko": "이름을 부를게",
+      "jp": "名前を呼ぶよ",
+      "artist": "럭 라이프",
+      "genre": "애니 OST",
+      "number": "27994",
+      "covers": []
+    },
+    {
+      "id": "s103",
+      "ko": "인페르노",
+      "jp": "インフェルノ",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "애니 OST",
+      "number": "68095",
+      "covers": []
+    },
+    {
+      "id": "s104",
+      "ko": "축복",
+      "jp": "祝福",
+      "artist": "YOASOBI",
+      "genre": "애니 OST",
+      "number": "68684",
+      "covers": []
+    },
+    {
+      "id": "s105",
+      "ko": "커튼콜",
+      "jp": "カーテンコール",
+      "artist": "유우리",
+      "genre": "애니 OST",
+      "number": "52724",
+      "covers": [
+        "칸칸"
+      ]
+    },
+    {
+      "id": "s106",
+      "ko": "색채",
+      "jp": "色彩",
+      "artist": "yama",
+      "genre": "애니 OST",
+      "number": "68693",
+      "covers": []
+    },
+    {
+      "id": "s107",
+      "ko": "KICK BACK",
+      "jp": "KICK BACK",
+      "artist": "요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "68677",
+      "covers": []
+    },
+    {
+      "id": "s108",
+      "ko": "Plazma",
+      "jp": "Plazma",
+      "artist": "요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "52905",
+      "covers": []
+    },
+    {
+      "id": "s109",
+      "ko": "피스 사인",
+      "jp": "ピースサイン",
+      "artist": "요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "28720",
+      "covers": []
+    },
+    {
+      "id": "s110",
+      "ko": "혁명도중",
+      "jp": "革命道中",
+      "artist": "아이나 디 엔드",
+      "genre": "애니 OST",
+      "number": "52461",
+      "covers": []
+    },
+    {
+      "id": "s111",
+      "ko": "희극",
+      "jp": "喜劇",
+      "artist": "호시노 겐",
+      "genre": "애니 OST",
+      "number": "68601",
+      "covers": []
+    },
+    {
+      "id": "s177",
+      "ko": "사랑을 전하고 싶다든가",
+      "jp": "愛を伝えたいだとか",
+      "artist": "아이묭",
+      "genre": "J-POP",
+      "number": "28907",
+      "covers": []
+    },
+    {
+      "id": "s180",
+      "ko": "소나기",
+      "jp": "ニワカアメ",
+      "artist": "하나땅",
+      "genre": "J-POP",
+      "number": "28701",
+      "covers": [
+        "하나땅"
+      ]
+    },
+    {
+      "id": "s181",
+      "ko": "청춘병",
+      "jp": "青春病",
+      "artist": "후지이 카제",
+      "genre": "J-POP",
+      "number": "52466",
+      "covers": []
+    },
+    {
+      "id": "popular52465",
+      "ko": "취한 줄도 모르고",
+      "jp": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "genre": "보카로",
+      "number": "52465",
+      "covers": []
+    },
+    {
+      "id": "popular68407",
+      "ko": "Cry Baby",
+      "jp": "Cry Baby",
+      "artist": "Official髭男dism",
+      "genre": "애니 OST",
+      "number": "68407",
+      "covers": []
+    },
+    {
+      "id": "popular26235",
+      "ko": "God knows...",
+      "jp": "God knows...",
+      "artist": "히라노 아야",
+      "genre": "애니 OST",
+      "number": "26235",
+      "covers": []
+    },
+    {
+      "id": "popular68799",
+      "ko": "신시대",
+      "jp": "新時代",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "68799",
+      "covers": []
+    },
+    {
+      "id": "popular52522",
+      "ko": "춤",
+      "jp": "踊",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "52522",
+      "covers": []
+    },
+    {
+      "id": "popular52495",
+      "ko": "레디메이드",
+      "jp": "レディメイド",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "52495",
+      "covers": []
+    },
+    {
+      "id": "popular68470",
+      "ko": "룰",
+      "jp": "ルル",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68470",
+      "covers": []
+    },
+    {
+      "id": "popular68672",
+      "ko": "빈크스의 술",
+      "jp": "ビンクスの酒",
+      "artist": "원피스 OST",
+      "genre": "애니 OST",
+      "number": "68672",
+      "covers": []
+    },
+    {
+      "id": "sibling-boku",
+      "ko": "내가 죽으려고 생각한 것은",
+      "jp": "僕が死のうと思ったのは",
+      "artist": "나카시마 미카",
+      "genre": "J-POP",
+      "number": "28688",
+      "covers": [
+        "amazarashi"
+      ]
+    },
+    {
+      "id": "sibling-bbbb",
+      "ko": "Bling-Bang-Bang-Born",
+      "jp": "Bling-Bang-Bang-Born",
+      "artist": "Creepy Nuts",
+      "genre": "애니 OST",
+      "number": "68950",
+      "covers": []
+    },
+    {
+      "id": "sibling-bansanka",
+      "ko": "만찬가",
+      "jp": "晩餐歌",
+      "artist": "tuki.",
+      "genre": "J-POP",
+      "number": "52788",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90165",
+      "ko": "-ERROR",
+      "jp": "-ERROR",
+      "artist": "niki",
+      "genre": "보카로",
+      "number": "90165",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90191",
+      "ko": "난모네에",
+      "jp": "なんもねえ",
+      "artist": "와스레란네요",
+      "genre": "애니 OST",
+      "number": "90191",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52693",
+      "ko": "Bunny Girl",
+      "jp": "Bunny Girl",
+      "artist": "AKASAKI",
+      "genre": "J-POP",
+      "number": "52693",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52679",
+      "ko": "Henceforth",
+      "jp": "Henceforth",
+      "artist": "Orangestar",
+      "genre": "보카로",
+      "number": "52679",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90144",
+      "ko": "DAYBREAK FRONTLINE",
+      "jp": "DAYBREAK FRONTLINE",
+      "artist": "Orangestar",
+      "genre": "보카로",
+      "number": "90144",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52678",
+      "ko": "신 같네",
+      "jp": "神っぽいな",
+      "artist": "피노키오피",
+      "genre": "보카로",
+      "number": "52678",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90174",
+      "ko": "모에챳카 파이어",
+      "jp": "モエチャッカファイア",
+      "artist": "잇세이",
+      "genre": "J-POP",
+      "number": "90174",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52699",
+      "ko": "휴루리라팟파",
+      "jp": "ひゅるりらぱっぱ",
+      "artist": "tuki.",
+      "genre": "J-POP",
+      "number": "52699",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52690",
+      "ko": "숨바꼭질",
+      "jp": "かくれんぼ",
+      "artist": "AliA",
+      "genre": "J-POP",
+      "number": "52690",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90147",
+      "ko": "날아오를 때",
+      "jp": "飛ぶ時",
+      "artist": "Vaundy",
+      "genre": "애니 OST",
+      "number": "90147",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90175",
+      "ko": "LEMON MELON COOKIE",
+      "jp": "LEMON MELON COOKIE",
+      "artist": "TAK",
+      "genre": "보카로",
+      "number": "90175",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52691",
+      "ko": "Execution Clap",
+      "jp": "Execution Clap",
+      "artist": "TRAP CHICK",
+      "genre": "보카로",
+      "number": "52691",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90169",
+      "ko": "아이 아이 아",
+      "jp": "アイ・アイ・ア",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "90169",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90167",
+      "ko": "일난",
+      "jp": "一難",
+      "artist": "Penthouse",
+      "genre": "J-POP",
+      "number": "90167",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-74133",
+      "ko": "SAIKAI",
+      "jp": "SAIKAI",
+      "artist": "Mili",
+      "genre": "애니 OST",
+      "number": "74133",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52683",
+      "ko": "언노운 마더구스",
+      "jp": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "genre": "보카로",
+      "number": "52683",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52700",
+      "ko": "다이다이다이다이다이 키라이",
+      "jp": "ダイダイダイダイダイ キライ",
+      "artist": "Amala",
+      "genre": "보카로",
+      "number": "52700",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52687",
+      "ko": "네 네 네",
+      "jp": "ねぇねぇねぇ。",
+      "artist": "피노키오피",
+      "genre": "보카로",
+      "number": "52687",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90155",
+      "ko": "쾌청",
+      "jp": "快晴",
+      "artist": "Orangestar",
+      "genre": "보카로",
+      "number": "90155",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90156",
+      "ko": "가희 실격",
+      "jp": "歌姫失格",
+      "artist": "피노키오피",
+      "genre": "보카로",
+      "number": "90156",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52692",
+      "ko": "별 내리는 바다",
+      "jp": "星降る海",
+      "artist": "츠키미 야치요 (하야미 사오리)",
+      "genre": "애니 OST",
+      "number": "52692",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-90149",
+      "ko": "올드 패션",
+      "jp": "オールドファッション",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "90149",
+      "covers": []
+    },
+    {
+      "id": "hot20261016-52684",
+      "ko": "상열",
+      "jp": "常熱",
+      "artist": "Vaundy",
+      "genre": "J-POP",
+      "number": "52684",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68058",
+      "ko": "Pretender",
+      "jp": "Pretender",
+      "artist": "Official髭男dism",
+      "genre": "J-POP",
+      "number": "68058",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52988",
+      "ko": "괴수의 꽃노래",
+      "jp": "怪獣の花唄",
+      "artist": "Vaundy",
+      "genre": "J-POP",
+      "number": "52988",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68553",
+      "ko": "베텔게우스",
+      "jp": "ベテルギウス",
+      "artist": "유우리",
+      "genre": "J-POP",
+      "number": "68553",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-25246",
+      "ko": "잔혹한 천사의 테제",
+      "jp": "残酷な天使のテーゼ",
+      "artist": "타카하시 요코",
+      "genre": "애니 OST",
+      "number": "25246",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27762",
+      "ko": "히로인",
+      "jp": "ヒロイン",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "27762",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27527",
+      "ko": "사무라이 하트 (Some Like It Hot!!)",
+      "jp": "サムライハート(Some Like It Hot!!)",
+      "artist": "SPYAIR",
+      "genre": "애니 OST",
+      "number": "27527",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52959",
+      "ko": "IRIS OUT",
+      "jp": "IRIS OUT",
+      "artist": "요네즈 켄시",
+      "genre": "애니 OST",
+      "number": "52959",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52972",
+      "ko": "JANE DOE",
+      "jp": "JANE DOE",
+      "artist": "요네즈 켄시, 우타다 히카루",
+      "genre": "애니 OST",
+      "number": "52972",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68419",
+      "ko": "Walking with you",
+      "jp": "Walking with you",
+      "artist": "Novelbright",
+      "genre": "J-POP",
+      "number": "68419",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68333",
+      "ko": "드라이 플라워",
+      "jp": "ドライフラワー",
+      "artist": "유우리",
+      "genre": "J-POP",
+      "number": "68333",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68446",
+      "ko": "수평선",
+      "jp": "水平線",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "68446",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68807",
+      "ko": "무희",
+      "jp": "踊り子",
+      "artist": "Vaundy",
+      "genre": "J-POP",
+      "number": "68807",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27031",
+      "ko": "루카루카★나이트 피버",
+      "jp": "ルカルカ★ナイトフィーバー",
+      "artist": "samfree",
+      "genre": "보카로",
+      "number": "27031",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68868",
+      "ko": "역광",
+      "jp": "逆光",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "68868",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-28214",
+      "ko": "실루엣",
+      "jp": "シルエット",
+      "artist": "KANA-BOON",
+      "genre": "애니 OST",
+      "number": "28214",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52444",
+      "ko": "W/X/Y",
+      "jp": "W / X / Y",
+      "artist": "타니 유우키",
+      "genre": "J-POP",
+      "number": "52444",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68127",
+      "ko": "푸름과 여름",
+      "jp": "青と夏",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "68127",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52468",
+      "ko": "모니터링",
+      "jp": "モニタリング",
+      "artist": "DECO*27",
+      "genre": "보카로",
+      "number": "52468",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52516",
+      "ko": "PPPP",
+      "jp": "PPPP",
+      "artist": "TAK",
+      "genre": "보카로",
+      "number": "52516",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52756",
+      "ko": "소년이여",
+      "jp": "拝啓、少年よ",
+      "artist": "Hump Back",
+      "genre": "J-POP",
+      "number": "52756",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68461",
+      "ko": "라일락",
+      "jp": "ライラック",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "애니 OST",
+      "number": "68461",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27805",
+      "ko": "높은 산의 하나코 씨",
+      "jp": "高嶺の花子さん",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "27805",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-6773",
+      "ko": "ENDLESS RAIN",
+      "jp": "ENDLESS RAIN",
+      "artist": "X JAPAN",
+      "genre": "J-POP",
+      "number": "6773",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68381",
+      "ko": "밤을 달리다",
+      "jp": "夜に駆ける",
+      "artist": "YOASOBI",
+      "genre": "J-POP",
+      "number": "68381",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-28927",
+      "ko": "마리골드",
+      "jp": "マリーゴールド",
+      "artist": "아이묭",
+      "genre": "J-POP",
+      "number": "28927",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27121",
+      "ko": "푸른 산호초",
+      "jp": "青い珊瑚礁",
+      "artist": "마츠다 세이코",
+      "genre": "J-POP",
+      "number": "27121",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52402",
+      "ko": "프러포즈",
+      "jp": "プロポーズ",
+      "artist": "나토리",
+      "genre": "J-POP",
+      "number": "52402",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52498",
+      "ko": "소녀 A",
+      "jp": "少女A",
+      "artist": "시이나 모타",
+      "genre": "보카로",
+      "number": "52498",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68031",
+      "ko": "백일",
+      "jp": "白日",
+      "artist": "King Gnu",
+      "genre": "J-POP",
+      "number": "68031",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52412",
+      "ko": "주름 맞추기",
+      "jp": "しわあわせ",
+      "artist": "Vaundy",
+      "genre": "J-POP",
+      "number": "52412",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27982",
+      "ko": "사랑 (코이)",
+      "jp": "恋",
+      "artist": "호시노 겐",
+      "genre": "J-POP",
+      "number": "27982",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68248",
+      "ko": "나라는 것",
+      "jp": "僕のこと",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "68248",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52994",
+      "ko": "115만 킬로미터의 필름",
+      "jp": "115万キロのフィルム",
+      "artist": "Official髭男dism",
+      "genre": "J-POP",
+      "number": "52994",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52428",
+      "ko": "사랑 감기에 실려",
+      "jp": "恋風邪にのせて",
+      "artist": "Vaundy",
+      "genre": "J-POP",
+      "number": "52428",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27965",
+      "ko": "아무것도 아니야 (movie ver.)",
+      "jp": "なんでもないや (movie ver.)",
+      "artist": "RADWIMPS",
+      "genre": "애니 OST",
+      "number": "27965",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52671",
+      "ko": "텔레캐스터 비보이",
+      "jp": "テレキャスタービーボーイ",
+      "artist": "스리이",
+      "genre": "보카로",
+      "number": "52671",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52717",
+      "ko": "나는 최강",
+      "jp": "私は最強",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "52717",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68986",
+      "ko": "파자마 파티즈의 노래",
+      "jp": "パジャマパーティーズのうた",
+      "artist": "파자마 파티즈",
+      "genre": "애니 OST",
+      "number": "68986",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68815",
+      "ko": "당신의 연인이 되고 싶어",
+      "jp": "貴方の恋人になりたい",
+      "artist": "초큐메이",
+      "genre": "J-POP",
+      "number": "68815",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68523",
+      "ko": "좋아하니까",
+      "jp": "好きだから。",
+      "artist": "유이카",
+      "genre": "J-POP",
+      "number": "68523",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68061",
+      "ko": "그저 네게 맑아라",
+      "jp": "ただ君に晴れ",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68061",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68719",
+      "ko": "꽃다발",
+      "jp": "花束",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "68719",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-6816",
+      "ko": "HOT LIMIT",
+      "jp": "HOT LIMIT",
+      "artist": "T.M.Revolution",
+      "genre": "J-POP",
+      "number": "6816",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68961",
+      "ko": "선잠",
+      "jp": "うたたね",
+      "artist": "Leina",
+      "genre": "J-POP",
+      "number": "68961",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-25049",
+      "ko": "I LOVE YOU",
+      "jp": "I LOVE YOU",
+      "artist": "오자키 유타카",
+      "genre": "J-POP",
+      "number": "25049",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52668",
+      "ko": "지금 당장 윤회",
+      "jp": "いますぐ輪廻",
+      "artist": "나키소",
+      "genre": "보카로",
+      "number": "52668",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27944",
+      "ko": "전전전세 (movie ver.)",
+      "jp": "前前前世(Movie ver.)",
+      "artist": "RADWIMPS",
+      "genre": "애니 OST",
+      "number": "27944",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27062",
+      "ko": "레인",
+      "jp": "レイン",
+      "artist": "SID",
+      "genre": "애니 OST",
+      "number": "27062",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68561",
+      "ko": "역몽",
+      "jp": "逆夢",
+      "artist": "King Gnu",
+      "genre": "애니 OST",
+      "number": "68561",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52844",
+      "ko": "케세라세라",
+      "jp": "ケセラセラ",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "52844",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68562",
+      "ko": "Mela!",
+      "jp": "Mela!",
+      "artist": "녹황색사회",
+      "genre": "J-POP",
+      "number": "68562",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52537",
+      "ko": "포니",
+      "jp": "フォニイ",
+      "artist": "츠미키",
+      "genre": "보카로",
+      "number": "52537",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-28109",
+      "ko": "ray",
+      "jp": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "genre": "J-POP",
+      "number": "28109",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-28424",
+      "ko": "연애재판",
+      "jp": "恋愛裁判",
+      "artist": "40mP",
+      "genre": "보카로",
+      "number": "28424",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-28675",
+      "ko": "해피 엔드",
+      "jp": "ハッピーエンド",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "28675",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68838",
+      "ko": "TATTOO",
+      "jp": "TATTOO",
+      "artist": "Official髭男dism",
+      "genre": "J-POP",
+      "number": "68838",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68047",
+      "ko": "홍련화",
+      "jp": "紅蓮華",
+      "artist": "LiSA",
+      "genre": "애니 OST",
+      "number": "68047",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27807",
+      "ko": "크리스마스 송",
+      "jp": "クリスマスソング",
+      "artist": "back number",
+      "genre": "J-POP",
+      "number": "27807",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68620",
+      "ko": "댄스홀",
+      "jp": "ダンスホール",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "68620",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-27425",
+      "ko": "벚꽃만월",
+      "jp": "サクラミツツキ",
+      "artist": "SPYAIR",
+      "genre": "애니 OST",
+      "number": "27425",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-26944",
+      "ko": "악의 하인",
+      "jp": "悪ノ召使",
+      "artist": "mothy",
+      "genre": "보카로",
+      "number": "26944",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52410",
+      "ko": "귀엽기만 하면 안 되나요?",
+      "jp": "かわいいだけじゃだめですか?",
+      "artist": "CUTIE STREET",
+      "genre": "J-POP",
+      "number": "52410",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-52470",
+      "ko": "KING",
+      "jp": "KING",
+      "artist": "Kanaria",
+      "genre": "보카로",
+      "number": "52470",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68863",
+      "ko": "푸르름이 사는 곳",
+      "jp": "青のすみか",
+      "artist": "키타니 타츠야",
+      "genre": "애니 OST",
+      "number": "68863",
+      "covers": []
+    },
+    {
+      "id": "tjchart20261013-68460",
+      "ko": "departure!",
+      "jp": "departure!",
+      "artist": "오노 마사토시",
+      "genre": "애니 OST",
+      "number": "68460",
+      "covers": []
+    },
+    {
+      "id": "popular-52715",
+      "ko": "물거품 럴러바이",
+      "jp": "ウタカタララバイ",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "52715",
+      "covers": []
+    },
+    {
+      "id": "popular-52755",
+      "ko": "세계의 이어짐",
+      "jp": "世界のつづき",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "52755",
+      "covers": []
+    },
+    {
+      "id": "popular-68538",
+      "ko": "아수라짱",
+      "jp": "阿修羅ちゃん",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68538",
+      "covers": []
+    },
+    {
+      "id": "popular-68674",
+      "ko": "리벨리온",
+      "jp": "リベリオン",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68674",
+      "covers": []
+    },
+    {
+      "id": "popular-68873",
+      "ko": "영원의 다음날",
+      "jp": "永遠のあくる日",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68873",
+      "covers": []
+    },
+    {
+      "id": "popular-68883",
+      "ko": "Show",
+      "jp": "唱",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68883",
+      "covers": []
+    },
+    {
+      "id": "popular-68864",
+      "ko": "쿠라쿠라",
+      "jp": "クラクラ",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "68864",
+      "covers": []
+    },
+    {
+      "id": "popular-68648",
+      "ko": "토트 무지카",
+      "jp": "Tot Musica",
+      "artist": "Ado",
+      "genre": "애니 OST",
+      "number": "68648",
+      "covers": []
+    },
+    {
+      "id": "popular-68900",
+      "ko": "해바라기",
+      "jp": "向日葵",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68900",
+      "covers": []
+    },
+    {
+      "id": "popular-68905",
+      "ko": "DIGNITY",
+      "jp": "DIGNITY",
+      "artist": "Ado",
+      "genre": "J-POP",
+      "number": "68905",
+      "covers": []
+    },
+    {
+      "id": "popular-27021",
+      "ko": "only my railgun",
+      "jp": "only my railgun",
+      "artist": "fripSide",
+      "genre": "애니 OST",
+      "number": "27021",
+      "covers": []
+    },
+    {
+      "id": "popular-52793",
+      "ko": "달링",
+      "jp": "ダーリン",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "52793",
+      "covers": []
+    },
+    {
+      "id": "popular-68141",
+      "ko": "점묘의 노래",
+      "jp": "点描の唄",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "68141",
+      "covers": []
+    },
+    {
+      "id": "popular-68736",
+      "ko": "Soranji",
+      "jp": "Soranji",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "68736",
+      "covers": []
+    },
+    {
+      "id": "popular-52834",
+      "ko": "쿠스시키",
+      "jp": "クスシキ",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "애니 OST",
+      "number": "52834",
+      "covers": []
+    },
+    {
+      "id": "popular-52924",
+      "ko": "천국",
+      "jp": "天国",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "52924",
+      "covers": []
+    },
+    {
+      "id": "popular-68885",
+      "ko": "ANTENNA",
+      "jp": "ANTENNA",
+      "artist": "Mrs. GREEN APPLE",
+      "genre": "J-POP",
+      "number": "68885",
+      "covers": []
+    },
+    {
+      "id": "popular-68078",
+      "ko": "말해줘",
+      "jp": "言って。",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68078",
+      "covers": []
+    },
+    {
+      "id": "popular-52488",
+      "ko": "패배자에게 앵콜은 필요 없어",
+      "jp": "負け犬にアンコールはいらない",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "52488",
+      "covers": []
+    },
+    {
+      "id": "popular-52541",
+      "ko": "히치콕",
+      "jp": "ヒッチコック",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "52541",
+      "covers": []
+    },
+    {
+      "id": "popular-68049",
+      "ko": "그래서 나는 음악을 그만두었다",
+      "jp": "だから僕は音楽を辞めた",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68049",
+      "covers": []
+    },
+    {
+      "id": "popular-68212",
+      "ko": "비와 카푸치노",
+      "jp": "雨とカプチーノ",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68212",
+      "covers": []
+    },
+    {
+      "id": "popular-68243",
+      "ko": "노틸러스",
+      "jp": "ノーチラス",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68243",
+      "covers": []
+    },
+    {
+      "id": "popular-68230",
+      "ko": "꽃에 망령",
+      "jp": "花に亡霊",
+      "artist": "요루시카",
+      "genre": "애니 OST",
+      "number": "68230",
+      "covers": []
+    },
+    {
+      "id": "popular-68365",
+      "ko": "봄도둑",
+      "jp": "春泥棒",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68365",
+      "covers": []
+    },
+    {
+      "id": "popular-68329",
+      "ko": "사상범",
+      "jp": "思想犯",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68329",
+      "covers": []
+    },
+    {
+      "id": "popular-68339",
+      "ko": "바람을 먹다",
+      "jp": "風を食む",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68339",
+      "covers": []
+    },
+    {
+      "id": "popular-68456",
+      "ko": "앨저넌",
+      "jp": "アルジャーノン",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68456",
+      "covers": []
+    },
+    {
+      "id": "popular-68752",
+      "ko": "텔레패스",
+      "jp": "テレパス",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "68752",
+      "covers": []
+    },
+    {
+      "id": "popular-52726",
+      "ko": "사양",
+      "jp": "斜陽",
+      "artist": "요루시카",
+      "genre": "애니 OST",
+      "number": "52726",
+      "covers": []
+    },
+    {
+      "id": "popular-52746",
+      "ko": "잊어주세요",
+      "jp": "忘れてください",
+      "artist": "요루시카",
+      "genre": "J-POP",
+      "number": "52746",
+      "covers": []
+    },
+    {
+      "id": "popular-68953",
+      "ko": "개다",
+      "jp": "晴る",
+      "artist": "요루시카",
+      "genre": "애니 OST",
+      "number": "68953",
+      "covers": []
+    }
+  ]
+}
