@@ -1,0 +1,43 @@
+name: Album artwork research
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/album-artwork-research.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out research branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/ost-artwork-20261021
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Search artwork candidates
+        run: python research/collect_apple_artwork.py
+      - name: Research summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('research/apple-artwork-candidates.json')
+          if not p.exists():
+              print('No output available')
+          else:
+              d=json.loads(p.read_text('utf-8'))
+              print('Processed',d['completed'],'/',d['total'])
+              print('Candidate matches',sum(bool(s['candidates']) for s in d['songs']))
+          PY
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: album-artwork-research
+          path: research/apple-artwork-candidates.json
+          if-no-files-found: warn
