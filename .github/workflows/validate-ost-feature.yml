@@ -1,0 +1,34 @@
+name: Validate OST catalog feature
+on:
+  push:
+    branches: [feature/ost-artwork-20261021]
+    paths:
+      - .github/workflows/validate-ost-feature.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check JavaScript syntax and metadata integrity
+        run: |
+          python3 - <<'PY'
+          import re,json,pathlib
+          html=pathlib.Path('www/index.html').read_text()
+          js=re.search(r'<script>(.*?)</script>',html,re.S).group(1)
+          pathlib.Path('/tmp/catalog.js').write_text(js)
+          original=re.search(r'const INITIAL=(\[.*?\])\.map\(s=>',js,re.S)
+          assert original, 'initial catalog missing'
+          songs=json.loads(original.group(1))
+          assert len(songs)==245,(len(songs),'expected 245 songs')
+          assert len({x['id'] for x in songs})==245, 'duplicate IDs'
+          assert all(x.get('number') for x in songs),'missing TJ number'
+          assert '(!ostType||s.ostType===ostType)' in js
+          print('245 base songs, unique IDs, number fields preserved')
+          PY
+          node --check /tmp/catalog.js
