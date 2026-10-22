@@ -1,0 +1,41 @@
+name: Artwork candidate research
+on:
+  push:
+    branches:
+      - feature/ost-artwork-20261021
+    paths:
+      - .github/workflows/artwork-research.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Query Apple Music catalog
+        run: python research/collect_apple_artwork.py
+      - name: Summarize results
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('research/apple-artwork-candidates.json')
+          if not p.exists():
+              print('No output generated')
+          else:
+              d=json.loads(p.read_text())
+              print('Processed:',d['completed'],'/',d['total'])
+              print('With candidates:',sum(bool(x['candidates']) for x in d['songs']))
+          PY
+      - name: Upload research JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: apple-artwork-candidates
+          path: research/apple-artwork-candidates.json
+          if-no-files-found: warn
