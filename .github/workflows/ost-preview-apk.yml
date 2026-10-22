@@ -1,4 +1,4 @@
-name: OST Preview APK (debug)
+name: OST Preview APK (separate app)
 on:
   workflow_dispatch:
 permissions:
@@ -20,6 +20,15 @@ jobs:
       - name: Build debug preview
         run: |
           npm install --no-audit --no-fund
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('capacitor.config.json')
+          d=json.loads(p.read_text())
+          d['appId']='com.hayeon.tjjpsong.ostpreview'
+          d['appName']='TJ 노래방 OST 테스트'
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2))
+          PY
           npx cap add android
           npx cap sync android
           cd android
@@ -27,6 +36,6 @@ jobs:
           ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: tj-ost-preview-debug-apk
+          name: tj-ost-preview-separate-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
