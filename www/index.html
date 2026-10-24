@@ -114,8 +114,8 @@ async function processArtQueue(){
    }
   }catch(e){/* keep fallback and allow a later retry */}
   artQueued.delete(id);
-  // Roughly 18 requests/minute across this single app instance.
-  if(artQueue.length)await new Promise(resolve=>setTimeout(resolve,3400));
+  // Up to 50 requests/minute on this app instance; visible covers only.
+  if(artQueue.length)await new Promise(resolve=>setTimeout(resolve,1200));
  }
  artBusy=false;
 }
