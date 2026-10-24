@@ -1,0 +1,38 @@
+name: Validate album artwork change
+on:
+  pull_request:
+    paths:
+      - 'www/index.html'
+      - '.github/workflows/validate-artwork.yml'
+  push:
+    branches:
+      - 'feature/album-art-catalog-20261024'
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check JavaScript syntax and catalog preservation
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re, json, pathlib
+          html = pathlib.Path('www/index.html').read_text('utf-8')
+          scripts = re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>', html, re.S|re.I)
+          assert scripts, 'No inline scripts'
+          pathlib.Path('/tmp/tj-app.js').write_text('\n'.join(scripts), 'utf-8')
+          m = re.search(r'const INITIAL=(\[.*?\]);\s*const STORE=', html, re.S)
+          assert m, 'Catalog missing'
+          songs = json.loads(m.group(1))
+          assert len(songs) == 245, f'Expected 245, found {len(songs)}'
+          assert sum(s.get('genre') == '애니 OST' for s in songs) == 58
+          assert len({s['id'] for s in songs}) == 245
+          assert len({s['number'] for s in songs}) == 245
+          assert all(str(s.get('number','')).isdigit() for s in songs)
+          assert 'data-cover-id' in html and 'artScore(song,result)' in html
+          print('Catalog, art rendering and unique TJ numbers checked')
+          PY
+          node --check /tmp/tj-app.js
